@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <math.h>
 
-int main()
+    int main()
 {
     std::cout << CHAR_MAX << std::endl;
     std::cout << UCHAR_MAX << std::endl;
@@ -34,7 +34,7 @@ int main()
             std::cout << "DZIELENIE PRZEZ ZERO";
         }
     }
-    
+
     std::cout << std::endl << "TESTER TROJKATOW" << std::endl;
     float a, b, c;
     std::cout << "podaj dlugosc bokow: ";
@@ -104,5 +104,5 @@ int main()
         geosum *= num;
         count++;
     }
-}
 
+}
